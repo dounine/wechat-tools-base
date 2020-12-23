@@ -49,7 +49,7 @@ registerMicroApps([
     // },
     {
         name: 'wechat-tools-data',
-        entry: 'http://192.168.1.182:9000',
+        entry: 'http://192.168.1.182:50000',
         container: '#container',
         loader,
         props: {
