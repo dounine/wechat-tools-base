@@ -1,7 +1,6 @@
-![](https://github.com/dounine/jb-base/workflows/Node.js%20CI/badge.svg) ![](https://img.shields.io/github/license/dounine/jb-base)
+![](https://github.com/dounine/wechat-tools-base/workflows/Node.js%20CI/badge.svg) ![](https://img.shields.io/github/license/dounine/wechat-tools-base)
 
-# jb-base
-jb ui base 
+# wechat-tools-base
 
 ##  部署
 不同应用不同端口、或者不同域名
@@ -20,9 +19,9 @@ server {
     location / {
 	root /etc/nginx/conf.d/base;
 	index index.html index.htm;
-    add_header Cache-Control no-cache;
-    add_header Cache-Control private;
-    expires -1s;
+        add_header Cache-Control no-cache;
+        add_header Cache-Control private;
+        expires -1s;
 	try_files $uri $uri/ /index.html;
     }
 }
@@ -30,4 +29,4 @@ server {
 复制
 ```
 cp -rf dist/* /etc/nginx/conf.d/base 
-``
+```
