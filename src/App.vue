@@ -50,7 +50,6 @@
             广告金
           </el-menu-item>
           <el-menu-item
-            disabled
             @click="linkClick('channel', '/data/channel')"
             index="/data/channel"
           >
